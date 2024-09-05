@@ -1,0 +1,30 @@
+head{
+    background-image: url(Imagenes/sisas.jpg);
+}
+
+body {
+    font-family: Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    background-color: #f4f4f4;
+    background-image: url(Imagenes/das.jpg) ;
+    background-repeat: no-repeat;
+    
+    background-size: cover; /* Hace que la imagen cubra todo el fondo */
+        /* Evita que la imagen se repita */
+        background-position: center; /* Centra la imagen en la página */
+}
+
+.InicioSesion{
+    
+        background-color: #c5bcbc;
+        padding: 20px;
+        border-radius: 8px;
+        text-align: center;
+        max-width: 400px;
+        width: 100%;
+    
+}
