@@ -9,13 +9,14 @@ body {
     align-items: center;
     height: 100vh;
     margin: 0;
-    background-color: red;
+    background-color: #ff0000;
     background-image: url(Imagenes/das.jpg) ;
     background-repeat: no-repeat;
     
     background-size: cover; /* Hace que la imagen cubra todo el fondo */
         /* Evita que la imagen se repita */
         background-position: center; /* Centra la imagen en la página */
+        
 }
 
 .InicioSesion{
