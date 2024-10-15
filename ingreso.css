@@ -1,0 +1,14 @@
+body{
+    text-align: center;
+   
+}
+
+
+h1{
+    color: blueviolet;
+  border-radius: 3px 3px 3px solid;
+}
+form{
+    color: black;
+    text-decoration-color: blueviolet solid;
+}
