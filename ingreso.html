@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ingreso y Salida </title>
+    <link rel="stylesheet" href="./ingreso.css">
+</head>
+
+<body>
+    <header>
+        <h1>Ingreso Horario Empleados</h1>
+    </header>
+    <main>
+        <form action="">
+            <label for="nombre">
+                <span>¿Cuál es tu nombre?</span>
+                <input type="text" id="nombre" name="nombre" required>
+            </label> <br><br>
+            <label for="ingreso"> <!--visual de -time- depende del "OS" pero siempre devuelve formato 24H -->
+                <span>Hora de ingreso</span>
+                <input type="time" id="ingreso" name="ingreso" required>
+            </label><br><br>
+            <label for="Salida">
+                <span>Hora de salida</span>
+                <input type="time" id="Salida" name="Salida" required>
+            </label><br><br>
+            <input id="mi-id" type="submit">
+        </form>
+    </main>
+</body>
+
+</html>
