@@ -16,18 +16,18 @@
         <form action="">
             <label for="nombre">
                 <span>¿Cuál es tu nombre?</span>
-                <input type="text" id="nombre" name="nombre">
+
+                <input type="text" id="nombre" name="nombre" required>
             </label> <br><br>
-            <label for="ingreso">
+            <label for="ingreso"> <!--visual de -time- depende del "OS" pero siempre devuelve formato 24H -->
                 <span>Hora de ingreso</span>
-                <input type="time" id="ingreso" name="ingreso">
+                <input type="time" id="ingreso" name="ingreso" required>
             </label><br><br>
-          <input type="submit">
-
-
-
-
-
+            <label for="Salida">
+                <span>Hora de salida</span>
+                <input type="time" id="Salida" name="Salida" required>
+            </label><br><br>
+            <input id="mi-id" type="submit">
 
         </form>
     </main>
