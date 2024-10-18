@@ -4,8 +4,8 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Ingreso y Salida </title>
-    <link rel="stylesheet" href="./ingreso.css">
+    <title>Ingreso horario</title>
+    <link rel="stylesheet" href="ingreso.css">
 </head>
 
 <body>
@@ -16,6 +16,7 @@
         <form action="">
             <label for="nombre">
                 <span>¿Cuál es tu nombre?</span>
+
                 <input type="text" id="nombre" name="nombre" required>
             </label> <br><br>
             <label for="ingreso"> <!--visual de -time- depende del "OS" pero siempre devuelve formato 24H -->
@@ -27,6 +28,7 @@
                 <input type="time" id="Salida" name="Salida" required>
             </label><br><br>
             <input id="mi-id" type="submit">
+
         </form>
     </main>
 </body>
