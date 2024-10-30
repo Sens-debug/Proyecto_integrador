@@ -1,0 +1,28 @@
+body{
+    background-color: grey;
+}
+
+
+
+li{
+    justify-content: flex-end;
+    align-items: flex-end;
+    display: flex;
+    font-size: 20px;
+}
+h1{
+    text-align: center;
+    color: black;
+    font-style: italic;
+    text-shadow: 5px 5px 5px white;
+}
+#registro{
+    background-color: gray;
+    color: black;
+    padding: 10px;
+    margin-top: 150px;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    box-shadow: 5px 5px 5px white;
+}
