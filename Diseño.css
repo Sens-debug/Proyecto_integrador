@@ -71,7 +71,7 @@ button:hover {
     background-color: #2196F3; /* Color diferente para el botón */
 }
 a {
-    color: blueviolet;
+   
     text-decoration: none;
     transition: color 0.3s;
     margin-bottom: 20px;
@@ -83,4 +83,12 @@ a {
     color: white;
     font-size: 150%;
     font-style: normal;
+}
+#button1{
+    color: white;
+    
+}
+
+#admi2{
+    color: white
 }
